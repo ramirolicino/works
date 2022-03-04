@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b2ff6f5d-277d-4fb9-87ae-3721446a7b07": {
+      "ProjectGuid": "b2ff6f5d-277d-4fb9-87ae-3721446a7b07",
+      "DisplayName": "Tp1",
+      "ColorIndex": 0
+    },
+    "f4e18c93-659d-4012-afe7-7eebecbd0b91": {
+      "ProjectGuid": "f4e18c93-659d-4012-afe7-7eebecbd0b91",
+      "DisplayName": "Entidades",
+      "ColorIndex": 1
+    },
+    "fd76aef0-ff70-4906-882f-2498eacc9be7": {
+      "ProjectGuid": "fd76aef0-ff70-4906-882f-2498eacc9be7",
+      "DisplayName": "Test",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "4e25f348-adec-4d99-9890-77bf95784127": {
+      "ProjectGuid": "4e25f348-adec-4d99-9890-77bf95784127",
+      "DisplayName": "MiCalculadora",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
