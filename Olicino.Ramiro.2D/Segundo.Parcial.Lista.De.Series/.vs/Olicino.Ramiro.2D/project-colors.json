@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4b1489aa-f57d-4d16-ab16-4417cc111898": {
+      "ProjectGuid": "4b1489aa-f57d-4d16-ab16-4417cc111898",
+      "DisplayName": "Vista",
+      "ColorIndex": 0
+    },
+    "69477888-af65-4eaa-95b8-e5fbd0933398": {
+      "ProjectGuid": "69477888-af65-4eaa-95b8-e5fbd0933398",
+      "DisplayName": "Entidades",
+      "ColorIndex": 1
+    },
+    "120d72d8-ace4-4f6c-9c69-1be71c080f4e": {
+      "ProjectGuid": "120d72d8-ace4-4f6c-9c69-1be71c080f4e",
+      "DisplayName": "Test",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

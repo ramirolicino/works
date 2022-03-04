@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "W35JHJ3HM2omwtxumImKYa2zepdACIrOQvttsOcCTVx5laWFj+mMi4l0JtlVEiksDAy2XW7SvIIGq/U5l/icfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\olici\\Desktop\\U T N\\Practica\\Ej_I01_Mi_primer_CRUD\\Ej_I01_Mi_primer_CRUD\\Ej_I01_Mi_primer_CRUD.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olici\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

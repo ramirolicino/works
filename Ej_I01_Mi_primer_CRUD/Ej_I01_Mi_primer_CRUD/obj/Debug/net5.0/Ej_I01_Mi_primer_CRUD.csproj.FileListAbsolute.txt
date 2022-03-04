@@ -1,0 +1,16 @@
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\bin\Debug\net5.0\Ej_I01_Mi_primer_CRUD.exe
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\bin\Debug\net5.0\Ej_I01_Mi_primer_CRUD.deps.json
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\bin\Debug\net5.0\Ej_I01_Mi_primer_CRUD.runtimeconfig.json
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\bin\Debug\net5.0\Ej_I01_Mi_primer_CRUD.runtimeconfig.dev.json
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\bin\Debug\net5.0\Ej_I01_Mi_primer_CRUD.dll
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\bin\Debug\net5.0\ref\Ej_I01_Mi_primer_CRUD.dll
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\bin\Debug\net5.0\Ej_I01_Mi_primer_CRUD.pdb
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\obj\Debug\net5.0\Ej_I01_Mi_primer_CRUD.csproj.AssemblyReference.cache
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\obj\Debug\net5.0\Ej_I01_Mi_primer_CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\obj\Debug\net5.0\Ej_I01_Mi_primer_CRUD.AssemblyInfoInputs.cache
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\obj\Debug\net5.0\Ej_I01_Mi_primer_CRUD.AssemblyInfo.cs
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\obj\Debug\net5.0\Ej_I01_Mi_primer_CRUD.csproj.CoreCompileInputs.cache
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\obj\Debug\net5.0\Ej_I01_Mi_primer_CRUD.dll
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\obj\Debug\net5.0\ref\Ej_I01_Mi_primer_CRUD.dll
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\obj\Debug\net5.0\Ej_I01_Mi_primer_CRUD.pdb
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Ej_I01_Mi_primer_CRUD\obj\Debug\net5.0\Ej_I01_Mi_primer_CRUD.genruntimeconfig.cache

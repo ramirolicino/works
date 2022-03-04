@@ -1,0 +1,12 @@
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\bin\Debug\net5.0\Biblioteca.deps.json
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\bin\Debug\net5.0\Biblioteca.dll
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\bin\Debug\net5.0\ref\Biblioteca.dll
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\bin\Debug\net5.0\Biblioteca.pdb
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\obj\Debug\net5.0\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\obj\Debug\net5.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\obj\Debug\net5.0\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\obj\Debug\net5.0\Biblioteca.AssemblyInfo.cs
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\obj\Debug\net5.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\obj\Debug\net5.0\Biblioteca.dll
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\obj\Debug\net5.0\ref\Biblioteca.dll
+C:\Users\olici\Desktop\U T N\Practica\Ej_I01_Mi_primer_CRUD\Biblioteca\obj\Debug\net5.0\Biblioteca.pdb
