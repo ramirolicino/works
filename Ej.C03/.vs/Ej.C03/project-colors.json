@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9363b7e6-d05a-49c2-b8d6-2c0a49f1920a": {
+      "ProjectGuid": "9363b7e6-d05a-49c2-b8d6-2c0a49f1920a",
+      "DisplayName": "Ej.C03",
+      "ColorIndex": 0
+    },
+    "1e7dbbdd-d8c0-468c-a214-274c1a25df4e": {
+      "ProjectGuid": "1e7dbbdd-d8c0-468c-a214-274c1a25df4e",
+      "DisplayName": "FormCentralita",
+      "ColorIndex": 1
+    },
+    "154b5119-752c-48ae-90b3-1076784197a1": {
+      "ProjectGuid": "154b5119-752c-48ae-90b3-1076784197a1",
+      "DisplayName": "Biblioteca",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "e80739fa-ccfa-4126-8088-bb1d00e6f804": {
+      "ProjectGuid": "e80739fa-ccfa-4126-8088-bb1d00e6f804",
+      "DisplayName": "Test",
+      "ColorIndex": 3
+    },
+    "6b60ce65-6765-4101-89e6-abba61a9c747": {
+      "ProjectGuid": "6b60ce65-6765-4101-89e6-abba61a9c747",
+      "DisplayName": "TestCentralita",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
