@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iQ+ckV85PnWynaatyG1MBC8PDxtlw6anDEx8HJSrCBe1FnXrp5Ps54/JfJrLabVniuCmrxlIMD09qLVlNlwCKQ==",
+  "dgSpecHash": "siKGf7dA3+pJ1ZsH7aVTKHoHUl9gMjth8Bf9z+4WAyoy5YNAoTJPodhOAjSwx0StS9rZ7uRLkJHfzK1eHwOQeA==",
   "success": true,
   "projectFilePath": "C:\\Users\\olici\\Downloads\\works\\Ej.C03\\Ej.C03\\Ej.C03.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\olici\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
