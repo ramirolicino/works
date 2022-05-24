@@ -1,3 +1,0 @@
-Ej6-
-
-En el ej2 lo primero que testearia seria que dentro de los parametros cumplan con la funcion pedida, ya sea numero entero (enter 2 y 25) o la cadena de numeros.  

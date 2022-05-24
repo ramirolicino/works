@@ -1,5 +1,0 @@
-*SQL*
-
-Cree la base de datos en Microsoft SQL Server Management Studio 18.
-
-El archivo BaseDeDatos.sql se utiliza para la creacion de la misma, con dichas tablas y relaciones entre si. Mientras que en el archivo Empresa.sql se encuentran las consultas pedidas.
