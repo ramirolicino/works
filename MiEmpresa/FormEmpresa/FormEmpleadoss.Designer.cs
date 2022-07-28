@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cargarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -350,13 +352,37 @@
             // 
             // dgv_empleados
             // 
-            this.dgv_empleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_empleados.AllowUserToResizeColumns = false;
+            this.dgv_empleados.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.AliceBlue;
+            this.dgv_empleados.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgv_empleados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgv_empleados.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgv_empleados.BackgroundColor = System.Drawing.SystemColors.ButtonShadow;
+            this.dgv_empleados.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_empleados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgv_empleados.ColumnHeadersHeight = 25;
             this.dgv_empleados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Modificar,
             this.Eliminar,
             this.Activar});
+            this.dgv_empleados.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            this.dgv_empleados.EnableHeadersVisualStyles = false;
+            this.dgv_empleados.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgv_empleados.Location = new System.Drawing.Point(12, 79);
+            this.dgv_empleados.MultiSelect = false;
             this.dgv_empleados.Name = "dgv_empleados";
+            this.dgv_empleados.ReadOnly = true;
+            this.dgv_empleados.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dgv_empleados.RowHeadersVisible = false;
+            this.dgv_empleados.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dgv_empleados.RowTemplate.Height = 25;
             this.dgv_empleados.Size = new System.Drawing.Size(805, 407);
             this.dgv_empleados.TabIndex = 19;
@@ -367,18 +393,24 @@
             this.Modificar.HeaderText = "Modificar";
             this.Modificar.Image = global::FormEmpresa.Properties.Resources.modify;
             this.Modificar.Name = "Modificar";
+            this.Modificar.ReadOnly = true;
+            this.Modificar.Width = 63;
             // 
             // Eliminar
             // 
             this.Eliminar.HeaderText = "Eliminar";
             this.Eliminar.Image = global::FormEmpresa.Properties.Resources.delete;
             this.Eliminar.Name = "Eliminar";
+            this.Eliminar.ReadOnly = true;
+            this.Eliminar.Width = 55;
             // 
             // Activar
             // 
             this.Activar.HeaderText = "Activar";
             this.Activar.Image = global::FormEmpresa.Properties.Resources.up;
             this.Activar.Name = "Activar";
+            this.Activar.ReadOnly = true;
+            this.Activar.Width = 49;
             // 
             // FormEmpleadoss
             // 
