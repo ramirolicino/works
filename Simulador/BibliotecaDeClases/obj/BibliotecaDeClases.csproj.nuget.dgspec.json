@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {}
+    "C:\\Users\\olici\\Downloads\\works\\Simulador\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+    "C:\\Users\\olici\\Downloads\\works\\Simulador\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
+        "projectUniqueName": "C:\\Users\\olici\\Downloads\\works\\Simulador\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
         "projectName": "BibliotecaDeClases",
-        "projectPath": "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
+        "projectPath": "C:\\Users\\olici\\Downloads\\works\\Simulador\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
         "packagesPath": "C:\\Users\\olici\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\BibliotecaDeClases\\obj\\",
+        "outputPath": "C:\\Users\\olici\\Downloads\\works\\Simulador\\BibliotecaDeClases\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

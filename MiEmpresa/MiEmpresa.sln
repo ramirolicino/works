@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormEmpresa", "FormEmpresa\FormEmpresa.csproj", "{1BC63917-E0BD-4D82-9B44-6D1CC45A5DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{8263FB9D-8528-4D7C-98F5-765D4AE1A182}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC63917-E0BD-4D82-9B44-6D1CC45A5DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC63917-E0BD-4D82-9B44-6D1CC45A5DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC63917-E0BD-4D82-9B44-6D1CC45A5DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC63917-E0BD-4D82-9B44-6D1CC45A5DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8263FB9D-8528-4D7C-98F5-765D4AE1A182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8263FB9D-8528-4D7C-98F5-765D4AE1A182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8263FB9D-8528-4D7C-98F5-765D4AE1A182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8263FB9D-8528-4D7C-98F5-765D4AE1A182}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C23D7C3F-BFEE-42BF-BB1C-CAF1627B2C78}
+	EndGlobalSection
+EndGlobal

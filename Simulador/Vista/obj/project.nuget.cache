@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2UZINzJBbPBpRvNQJKg+gv8/I6Qd9GBtyhCnNEs1TVbeZRkW1/RTS3pu8Lt9YhrT1jXKshQu1jCRBR01tSVYAA==",
+  "dgSpecHash": "OdSeF1/43HVxldOwxxf3773Wh7/qev7yz8kImia0mkHHlU1vnno0oGKNtamYhEW+5pKoZtgyVsF8BLUDub0P9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\Vista\\Vista.csproj",
+  "projectFilePath": "C:\\Users\\olici\\Downloads\\works\\Simulador\\Vista\\Vista.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\olici\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\olici\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

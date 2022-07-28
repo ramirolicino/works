@@ -62,10 +62,5 @@ namespace Vista
             cts.Cancel();
             MessageBox.Show("Carga de alumnos cancelada");
         }
-
-        private void FrmProgramacionMultiHilo_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

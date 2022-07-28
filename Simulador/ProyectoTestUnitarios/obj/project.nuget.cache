@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/BfxYt7gFiepMONgRCe4RswKCVpu3sUdpblaMoLJbXKcar8+ZnIgKJnBqEtwH67+etWbO3TynzPnRFJXll+h2A==",
+  "dgSpecHash": "WfrI+APxrNgMiVhnR/RN6w8+CBTAvVTqyzAVsMdldzqPzv0peRhI9fCjWwsWNVEWMncPsQxqSR5IqOHTJ7Ur0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\ProyectoTestUnitarios\\ProyectoTestUnitarios.csproj",
+  "projectFilePath": "C:\\Users\\olici\\Downloads\\works\\Simulador\\ProyectoTestUnitarios\\ProyectoTestUnitarios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\olici\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\olici\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

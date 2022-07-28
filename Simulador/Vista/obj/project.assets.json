@@ -478,11 +478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\Vista\\Vista.csproj",
+      "projectUniqueName": "C:\\Users\\olici\\Downloads\\works\\Simulador\\Vista\\Vista.csproj",
       "projectName": "Vista",
-      "projectPath": "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\Vista\\Vista.csproj",
+      "projectPath": "C:\\Users\\olici\\Downloads\\works\\Simulador\\Vista\\Vista.csproj",
       "packagesPath": "C:\\Users\\olici\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\Vista\\obj\\",
+      "outputPath": "C:\\Users\\olici\\Downloads\\works\\Simulador\\Vista\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -502,8 +502,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
-              "projectPath": "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+            "C:\\Users\\olici\\Downloads\\works\\Simulador\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+              "projectPath": "C:\\Users\\olici\\Downloads\\works\\Simulador\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
             }
           }
         }

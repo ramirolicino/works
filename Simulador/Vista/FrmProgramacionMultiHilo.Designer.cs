@@ -93,7 +93,6 @@
             this.Name = "FrmProgramacionMultiHilo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmProgramacionMultiHilo";
-            this.Load += new System.EventHandler(this.FrmProgramacionMultiHilo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtg_listadoDeAlumnos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

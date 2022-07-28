@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KX68SylNH/ntkVFshNYQzs7n7oInTPddDdBrx5pHdbV+jkFrOBSs1B0qm9mofeFmR8pXCXef4UaxU2bCvGQmZg==",
+  "dgSpecHash": "W+35nDnM5A7eQ9jO9Gbs77e5qUkLVqtslHc/ScqqDQhAO4Kx4QQk3pUs+N3ium2p8QM84vQJeJyrX4TnVHe0Yw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\olici\\Downloads\\SP-Lab_II_2022_C1-Cascara\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
+  "projectFilePath": "C:\\Users\\olici\\Downloads\\works\\Simulador\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\olici\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\olici\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
