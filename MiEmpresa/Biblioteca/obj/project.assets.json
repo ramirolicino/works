@@ -460,11 +460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olici\\Downloads\\MiEmpresa\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\olici\\Downloads\\works\\MiEmpresa\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\olici\\Downloads\\MiEmpresa\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\olici\\Downloads\\works\\MiEmpresa\\Biblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\olici\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olici\\Downloads\\MiEmpresa\\Biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\olici\\Downloads\\works\\MiEmpresa\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

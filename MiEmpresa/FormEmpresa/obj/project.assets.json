@@ -478,11 +478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olici\\Downloads\\MiEmpresa\\FormEmpresa\\FormEmpresa.csproj",
+      "projectUniqueName": "C:\\Users\\olici\\Downloads\\works\\MiEmpresa\\FormEmpresa\\FormEmpresa.csproj",
       "projectName": "FormEmpresa",
-      "projectPath": "C:\\Users\\olici\\Downloads\\MiEmpresa\\FormEmpresa\\FormEmpresa.csproj",
+      "projectPath": "C:\\Users\\olici\\Downloads\\works\\MiEmpresa\\FormEmpresa\\FormEmpresa.csproj",
       "packagesPath": "C:\\Users\\olici\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olici\\Downloads\\MiEmpresa\\FormEmpresa\\obj\\",
+      "outputPath": "C:\\Users\\olici\\Downloads\\works\\MiEmpresa\\FormEmpresa\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -502,8 +502,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\olici\\Downloads\\MiEmpresa\\Biblioteca\\Biblioteca.csproj": {
-              "projectPath": "C:\\Users\\olici\\Downloads\\MiEmpresa\\Biblioteca\\Biblioteca.csproj"
+            "C:\\Users\\olici\\Downloads\\works\\MiEmpresa\\Biblioteca\\Biblioteca.csproj": {
+              "projectPath": "C:\\Users\\olici\\Downloads\\works\\MiEmpresa\\Biblioteca\\Biblioteca.csproj"
             }
           }
         }

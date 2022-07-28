@@ -44,27 +44,10 @@ namespace Biblioteca
         public string Apellido { get => apellido; set => apellido = value; }
         public string Sexo { get => sexo; set => sexo = value; }
         public DateTime FechaIngreso { get => fechaIngreso; set => fechaIngreso = value; }
-        public Puesto Puesto
-        {
-            get
-            {
-                foreach (Puesto item in ManejadorEmpresa.ListaPuestos)
-                {
-                    if (this.Puesto.Descripcion == item.Descripcion)
-                    {
-                        return item;
-                    }
-                }
-
-                return null;
-            }
-
-            set
-            {
-                this.puesto = value;
-            }
-        }
+        public Puesto Puesto { get => puesto; set => puesto = value; }
         public bool Estado { get => estado; set => estado = value; }
+
+
 
         public override string ToString()
         {

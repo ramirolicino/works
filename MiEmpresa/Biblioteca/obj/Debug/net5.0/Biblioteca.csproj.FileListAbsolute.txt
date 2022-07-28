@@ -10,3 +10,15 @@ C:\Users\olici\Downloads\MiEmpresa\Biblioteca\obj\Debug\net5.0\Biblioteca.dll
 C:\Users\olici\Downloads\MiEmpresa\Biblioteca\obj\Debug\net5.0\refint\Biblioteca.dll
 C:\Users\olici\Downloads\MiEmpresa\Biblioteca\obj\Debug\net5.0\Biblioteca.pdb
 C:\Users\olici\Downloads\MiEmpresa\Biblioteca\obj\Debug\net5.0\ref\Biblioteca.dll
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\bin\Debug\net5.0\Biblioteca.deps.json
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\bin\Debug\net5.0\Biblioteca.dll
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\bin\Debug\net5.0\Biblioteca.pdb
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\obj\Debug\net5.0\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\obj\Debug\net5.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\obj\Debug\net5.0\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\obj\Debug\net5.0\Biblioteca.AssemblyInfo.cs
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\obj\Debug\net5.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\obj\Debug\net5.0\Biblioteca.dll
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\obj\Debug\net5.0\refint\Biblioteca.dll
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\obj\Debug\net5.0\Biblioteca.pdb
+C:\Users\olici\Downloads\works\MiEmpresa\Biblioteca\obj\Debug\net5.0\ref\Biblioteca.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jsf3hiEQ/Q8i75ZK/0cQvvqUyA93AlS+kJEPXTShcx0PmPyuA8Owvrxl/Qz44Rb41AgjFBlw51KCALWxW7LgFA==",
+  "dgSpecHash": "kKEgnYckXJwl7MILVp26Xe9t31uTCTqYBtVUFh3a7/mWYHgjCog7KBHKqMvyxBJnJLka7w9wlsA/+bvv8n4t7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\olici\\Downloads\\MiEmpresa\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\olici\\Downloads\\works\\MiEmpresa\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\olici\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\olici\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
