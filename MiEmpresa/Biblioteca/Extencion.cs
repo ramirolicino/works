@@ -13,6 +13,20 @@
         }
 
 
+        public static int ExtraerIDPuesto(string descripcion)
+        {
+            foreach (Puesto item in ManejadorEmpresa.ListaPuestos)
+            {
+                if (item.Descripcion == descripcion)
+                {
+                    return item.Id;
+                }
+            }
+
+            return 0;
+        }
+
+
         //Convertidor
         public static Puesto ConvertirPuesto(int id)
         {
@@ -25,6 +39,7 @@
                     if (item.Id == id)
                     {
                         auxPuesto = item;
+                        break;
                     }
                 }
             }

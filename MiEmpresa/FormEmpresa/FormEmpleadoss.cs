@@ -25,10 +25,13 @@ namespace FormEmpresa
         {
             EstablecerOpcion(e);
         }
+
+
         private void bt_empInac_Click(object sender, EventArgs e)
         {
             Actualizar(0);
         }
+
 
         private void bt_empAct_Click(object sender, EventArgs e)
         {
@@ -73,15 +76,22 @@ namespace FormEmpresa
                 rbt_mas.Checked = false;
                 rbt_fem.Checked = false;
                 rbt_bin.Checked = false;
+                rb_administrcion.Checked = false;
+                rb_mozo.Checked = false;
+                rb_limpieza.Checked = false;
+                rb_cocina.Checked = false;
+                rb_recepcionista.Checked = false;
 
 
                 //Editar datagrid
                 dgv_empleados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                dgv_empleados.Columns["Eliminar"].Visible = true;
                 dgv_empleados.Columns["Modificar"].Visible = true;
-                dgv_empleados.Columns["Modificar"].DisplayIndex = 9;
-                dgv_empleados.Columns["Eliminar"].DisplayIndex = 9;
+                dgv_empleados.Columns["Modificar"].DisplayIndex = 10;
+                dgv_empleados.Columns["Eliminar"].Visible = true;
+                dgv_empleados.Columns["Eliminar"].DisplayIndex = 10;
                 dgv_empleados.Columns["Activar"].Visible = false;
+                dgv_empleados.Columns["ID_Puesto"].Visible = false;
+                dgv_empleados.Columns["Descripcion_Puesto"].HeaderText = "Puesto";
             }
             else
             {
@@ -99,14 +109,21 @@ namespace FormEmpresa
                 rbt_mas.Checked = false;
                 rbt_fem.Checked = false;
                 rbt_bin.Checked = false;
+                rb_administrcion.Checked = false;
+                rb_mozo.Checked = false;
+                rb_limpieza.Checked = false;
+                rb_cocina.Checked = false;
+                rb_recepcionista.Checked = false;
 
 
                 //Editar datagrid
                 dgv_empleados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                dgv_empleados.Columns["Eliminar"].Visible = false;
                 dgv_empleados.Columns["Modificar"].Visible = false;
+                dgv_empleados.Columns["Eliminar"].Visible = false;
                 dgv_empleados.Columns["Activar"].Visible = true;
-                dgv_empleados.Columns["Activar"].DisplayIndex = 8;
+                dgv_empleados.Columns["Activar"].DisplayIndex = 10;
+                dgv_empleados.Columns["ID_Puesto"].Visible = false;
+                dgv_empleados.Columns["Descripcion_Puesto"].HeaderText = "Puesto";
             }
 
         }
@@ -142,7 +159,7 @@ namespace FormEmpresa
                 {
                     foreach (DataGridViewRow item in dgv_empleados.Rows)
                     {
-                        indice = dgv_empleados.CurrentRow.Cells["Id"].RowIndex;
+                        indice = dgv_empleados.CurrentRow.HeaderCell.RowIndex;
                         emp = ManejadorEmpresa.EmpleadosActivo[indice];
                     }
 
@@ -159,7 +176,7 @@ namespace FormEmpresa
                 {
                     foreach (DataGridViewRow item in dgv_empleados.Rows)
                     {
-                        indice = dgv_empleados.CurrentRow.Cells["Id"].RowIndex;
+                        indice = dgv_empleados.CurrentRow.HeaderCell.RowIndex;
                         emp = ManejadorEmpresa.EmpleadosInactivos[indice];
                     }
 
@@ -228,21 +245,6 @@ namespace FormEmpresa
         }
 
 
-
-        private int ExtraerIDPuesto(string descripcion)
-        {
-            foreach (Puesto item in ManejadorEmpresa.ListaPuestos)
-            {
-                if (item.Descripcion == descripcion)
-                {
-                    return item.Id;
-                }
-            }
-
-            return 0;
-        }
-
-
         private void AltaEmpleado()
         {
             string nombre = txt_nombre.Text.ToLower();
@@ -269,23 +271,23 @@ namespace FormEmpresa
             //Puesto
             if (rb_administrcion.Checked == true)
             {
-                puesto = ExtraerIDPuesto(rb_administrcion.Text);
+                puesto = Extencion.ExtraerIDPuesto(rb_administrcion.Text);
             }
             else if (rb_cocina.Checked == true)
             {
-                puesto = ExtraerIDPuesto(rb_cocina.Text);
+                puesto = Extencion.ExtraerIDPuesto(rb_cocina.Text);
             }
             else if (rb_mozo.Checked == true)
             {
-                puesto = ExtraerIDPuesto(rb_mozo.Text);
+                puesto = Extencion.ExtraerIDPuesto(rb_mozo.Text);
             }
             else if (rb_limpieza.Checked == true)
             {
-                puesto = ExtraerIDPuesto(rb_limpieza.Text);
+                puesto = Extencion.ExtraerIDPuesto(rb_limpieza.Text);
             }
             else if (rb_recepcionista.Checked == true)
             {
-                puesto = ExtraerIDPuesto(rb_recepcionista.Text);
+                puesto = Extencion.ExtraerIDPuesto(rb_recepcionista.Text);
             }
 
             try
@@ -297,7 +299,7 @@ namespace FormEmpresa
                 {
                     Puesto descPuesto = Extencion.ConvertirPuesto(puesto);
 
-                    Empleado empleado = new Empleado(nombre.UpperFirstChar(), apellido.UpperFirstChar(), sexo, DateTime.Today, descPuesto, estado);
+                    Empleado empleado = new Empleado(nombre.UpperFirstChar(), apellido.UpperFirstChar(), sexo, DateTime.Today, descPuesto.Descripcion, puesto, estado);
 
                     if (ManejadorEmpresa.AgregarEmpleado(empleado))
                     {

@@ -10,52 +10,57 @@ namespace Biblioteca
         private string apellido;
         private string sexo;
         private DateTime fechaIngreso;
-        private Puesto puesto;
+        private string descrPuesto;
+        private int puesto;
         private bool estado;
 
 
-
-
-
-        public Empleado(string nombre, string apellido, string sexo, DateTime fechaIngreso, Puesto puesto, bool estado)
+        public Empleado(string nombre, string apellido, string sexo, DateTime fechaIngreso, string descrPuesto, int puesto, bool estado)
         {
             this.nombre = nombre;
             this.apellido = apellido;
             this.sexo = sexo;
             this.fechaIngreso = fechaIngreso;
+            this.descrPuesto = descrPuesto;
             this.puesto = puesto;
             this.estado = estado;
         }
 
 
-        public Empleado(int id, string nombre, string apellido, string sexo, DateTime fechaIngreso, Puesto puesto, bool estado)
-        : this(nombre, apellido, sexo, fechaIngreso, puesto, estado)
+        public Empleado(int id, string nombre, string apellido, string sexo, DateTime fechaIngreso, string descrPuesto, int puesto, bool estado)
+        : this(nombre, apellido, sexo, fechaIngreso, descrPuesto, puesto, estado)
         {
             this.id = id;
         }
-
-
-
-
-
 
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public string Apellido { get => apellido; set => apellido = value; }
         public string Sexo { get => sexo; set => sexo = value; }
         public DateTime FechaIngreso { get => fechaIngreso; set => fechaIngreso = value; }
-        public Puesto Puesto { get => puesto; set => puesto = value; }
+        public string Descripcion_Puesto
+        {
+            get
+            {
+                Puesto auxPuesto = Extencion.ConvertirPuesto(this.puesto);
+
+                return auxPuesto.Descripcion;
+            }
+            set
+            {
+                this.descrPuesto = value;
+            }
+        }
+        public int ID_Puesto { get => puesto; set => puesto = value; }
         public bool Estado { get => estado; set => estado = value; }
-
-
 
         public override string ToString()
         {
             StringBuilder sb = new();
 
             sb.AppendLine($"\n****************");
-            sb.AppendLine($"ID:{Id}");
-            sb.AppendLine($"Puesto: {Puesto}");
+            sb.AppendLine($"ID: {Id}");
+            sb.AppendLine($"Puesto: {Descripcion_Puesto}");
             sb.AppendLine($"{Nombre}");
             sb.AppendLine($"{Apellido}");
             sb.AppendLine($"{Sexo}");

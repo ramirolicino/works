@@ -28,12 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.dgv_empleados = new System.Windows.Forms.DataGridView();
-            this.Modificar = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Eliminar = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Activar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cargarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,80 +50,23 @@
             this.rb_limpieza = new System.Windows.Forms.RadioButton();
             this.rb_recepcionista = new System.Windows.Forms.RadioButton();
             this.rb_administrcion = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_empleados)).BeginInit();
+            this.empleadoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.empleadoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.empleadoBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.empleadoBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.dgv_empleados = new System.Windows.Forms.DataGridView();
+            this.Modificar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Eliminar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Activar = new System.Windows.Forms.DataGridViewImageColumn();
             this.menuStrip1.SuspendLayout();
             this.gb_sexo.SuspendLayout();
             this.gb_puesto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_empleados)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dgv_empleados
-            // 
-            this.dgv_empleados.AllowUserToResizeColumns = false;
-            this.dgv_empleados.AllowUserToResizeRows = false;
-            this.dgv_empleados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dgv_empleados.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dgv_empleados.BackgroundColor = System.Drawing.SystemColors.ButtonShadow;
-            this.dgv_empleados.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dgv_empleados.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_empleados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgv_empleados.ColumnHeadersHeight = 25;
-            this.dgv_empleados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Modificar,
-            this.Eliminar,
-            this.Activar});
-            this.dgv_empleados.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
-            this.dgv_empleados.EnableHeadersVisualStyles = false;
-            this.dgv_empleados.GridColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dgv_empleados.Location = new System.Drawing.Point(12, 79);
-            this.dgv_empleados.Name = "dgv_empleados";
-            this.dgv_empleados.ReadOnly = true;
-            this.dgv_empleados.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_empleados.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgv_empleados.RowHeadersVisible = false;
-            this.dgv_empleados.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.dgv_empleados.RowTemplate.Height = 25;
-            this.dgv_empleados.Size = new System.Drawing.Size(813, 369);
-            this.dgv_empleados.TabIndex = 1;
-            this.dgv_empleados.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_empleados_CellClick);
-            // 
-            // Modificar
-            // 
-            this.Modificar.HeaderText = "Modificar";
-            this.Modificar.Image = global::FormEmpresa.Properties.Resources.modify;
-            this.Modificar.Name = "Modificar";
-            this.Modificar.ReadOnly = true;
-            this.Modificar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Modificar.Width = 69;
-            // 
-            // Eliminar
-            // 
-            this.Eliminar.HeaderText = "Eliminar";
-            this.Eliminar.Image = global::FormEmpresa.Properties.Resources.delete;
-            this.Eliminar.Name = "Eliminar";
-            this.Eliminar.ReadOnly = true;
-            this.Eliminar.Width = 59;
-            // 
-            // Activar
-            // 
-            this.Activar.HeaderText = "Activar";
-            this.Activar.Image = global::FormEmpresa.Properties.Resources.up;
-            this.Activar.Name = "Activar";
-            this.Activar.ReadOnly = true;
-            this.Activar.Width = 52;
             // 
             // menuStrip1
             // 
@@ -137,7 +75,7 @@
             this.archivoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1101, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1103, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -170,7 +108,7 @@
             this.bt_cerrar.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bt_cerrar.Location = new System.Drawing.Point(12, 492);
             this.bt_cerrar.Name = "bt_cerrar";
-            this.bt_cerrar.Size = new System.Drawing.Size(692, 44);
+            this.bt_cerrar.Size = new System.Drawing.Size(805, 44);
             this.bt_cerrar.TabIndex = 6;
             this.bt_cerrar.Text = "CERRAR";
             this.bt_cerrar.UseVisualStyleBackColor = false;
@@ -332,10 +270,10 @@
             this.rb_mozo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rb_mozo.Location = new System.Drawing.Point(160, 22);
             this.rb_mozo.Name = "rb_mozo";
-            this.rb_mozo.Size = new System.Drawing.Size(66, 25);
+            this.rb_mozo.Size = new System.Drawing.Size(80, 25);
             this.rb_mozo.TabIndex = 4;
             this.rb_mozo.TabStop = true;
-            this.rb_mozo.Text = "Mozo";
+            this.rb_mozo.Text = "Mozo/a";
             this.rb_mozo.UseVisualStyleBackColor = false;
             // 
             // rb_cocina
@@ -394,12 +332,61 @@
             this.rb_administrcion.Text = "Administracion";
             this.rb_administrcion.UseVisualStyleBackColor = false;
             // 
+            // empleadoBindingSource
+            // 
+            this.empleadoBindingSource.DataSource = typeof(Biblioteca.Empleado);
+            // 
+            // empleadoBindingSource1
+            // 
+            this.empleadoBindingSource1.DataSource = typeof(Biblioteca.Empleado);
+            // 
+            // empleadoBindingSource2
+            // 
+            this.empleadoBindingSource2.DataSource = typeof(Biblioteca.Empleado);
+            // 
+            // empleadoBindingSource3
+            // 
+            this.empleadoBindingSource3.DataSource = typeof(Biblioteca.Empleado);
+            // 
+            // dgv_empleados
+            // 
+            this.dgv_empleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_empleados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Modificar,
+            this.Eliminar,
+            this.Activar});
+            this.dgv_empleados.Location = new System.Drawing.Point(12, 79);
+            this.dgv_empleados.Name = "dgv_empleados";
+            this.dgv_empleados.RowTemplate.Height = 25;
+            this.dgv_empleados.Size = new System.Drawing.Size(805, 407);
+            this.dgv_empleados.TabIndex = 19;
+            this.dgv_empleados.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_empleados_CellClick);
+            // 
+            // Modificar
+            // 
+            this.Modificar.HeaderText = "Modificar";
+            this.Modificar.Image = global::FormEmpresa.Properties.Resources.modify;
+            this.Modificar.Name = "Modificar";
+            // 
+            // Eliminar
+            // 
+            this.Eliminar.HeaderText = "Eliminar";
+            this.Eliminar.Image = global::FormEmpresa.Properties.Resources.delete;
+            this.Eliminar.Name = "Eliminar";
+            // 
+            // Activar
+            // 
+            this.Activar.HeaderText = "Activar";
+            this.Activar.Image = global::FormEmpresa.Properties.Resources.up;
+            this.Activar.Name = "Activar";
+            // 
             // FormEmpleadoss
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.ClientSize = new System.Drawing.Size(1101, 548);
+            this.ClientSize = new System.Drawing.Size(1103, 548);
+            this.Controls.Add(this.dgv_empleados);
             this.Controls.Add(this.gb_puesto);
             this.Controls.Add(this.bt_limpiar);
             this.Controls.Add(this.bt_empAct);
@@ -410,18 +397,21 @@
             this.Controls.Add(this.bt_cerrar);
             this.Controls.Add(this.bt_alta);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.dgv_empleados);
             this.Name = "FormEmpleadoss";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormEmpleadoss";
             this.Load += new System.EventHandler(this.FormEmpleadoss_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_empleados)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.gb_sexo.ResumeLayout(false);
             this.gb_sexo.PerformLayout();
             this.gb_puesto.ResumeLayout(false);
             this.gb_puesto.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_empleados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -432,7 +422,6 @@
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cargarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem guardarToolStripMenuItem;
-        public System.Windows.Forms.DataGridView dgv_empleados;
         private System.Windows.Forms.Button bt_cerrar;
         private System.Windows.Forms.Button bt_alta;
         private System.Windows.Forms.TextBox txt_nombre;
@@ -444,14 +433,19 @@
         private System.Windows.Forms.Button bt_empInac;
         private System.Windows.Forms.Button bt_empAct;
         private System.Windows.Forms.Button bt_limpiar;
-        private System.Windows.Forms.DataGridViewImageColumn Modificar;
-        private System.Windows.Forms.DataGridViewImageColumn Eliminar;
-        private System.Windows.Forms.DataGridViewImageColumn Activar;
         private System.Windows.Forms.GroupBox gb_puesto;
         private System.Windows.Forms.RadioButton rb_mozo;
         private System.Windows.Forms.RadioButton rb_cocina;
         private System.Windows.Forms.RadioButton rb_limpieza;
         private System.Windows.Forms.RadioButton rb_recepcionista;
         private System.Windows.Forms.RadioButton rb_administrcion;
+        private System.Windows.Forms.BindingSource empleadoBindingSource;
+        private System.Windows.Forms.BindingSource empleadoBindingSource1;
+        private System.Windows.Forms.BindingSource empleadoBindingSource2;
+        private System.Windows.Forms.BindingSource empleadoBindingSource3;
+        private System.Windows.Forms.DataGridView dgv_empleados;
+        private System.Windows.Forms.DataGridViewImageColumn Modificar;
+        private System.Windows.Forms.DataGridViewImageColumn Eliminar;
+        private System.Windows.Forms.DataGridViewImageColumn Activar;
     }
 }

@@ -30,10 +30,9 @@ namespace FormEmpresa
             ModificarEmpleado();
         }
 
-        private void bt_limpiar_Click(object sender, EventArgs e)
+        private void bt_cerrar_Click(object sender, EventArgs e)
         {
-            txt_nombre.Text = string.Empty;
-            txt_apellido.Text = string.Empty;
+            this.Close();
         }
 
 
@@ -43,7 +42,7 @@ namespace FormEmpresa
             {
                 txt_nombre.Text = auxEmpleado.Nombre;
                 txt_apellido.Text = auxEmpleado.Apellido;
-                descrPuesto = Extencion.ConvertirPuesto(auxEmpleado.Puesto.Id);
+                descrPuesto = Extencion.ConvertirPuesto(auxEmpleado.ID_Puesto);
 
 
                 //Sexo
@@ -159,7 +158,7 @@ namespace FormEmpresa
                 {
                     Puesto descPuesto = Extencion.ConvertirPuesto(puesto);
 
-                    auxEmpleado = new Empleado(auxEmpleado.Id, nombre.UpperFirstChar(), apellido.UpperFirstChar(), sexo, DateTime.Today, descPuesto, estado);
+                    auxEmpleado = new Empleado(auxEmpleado.Id, nombre.UpperFirstChar(), apellido.UpperFirstChar(), sexo, DateTime.Today, descPuesto.Descripcion, puesto, estado);
 
                     if (ManejadorEmpresa.ModificarEmpleado(auxEmpleado))
                     {
@@ -178,7 +177,5 @@ namespace FormEmpresa
                 MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK);
             }
         }
-
-
     }
 }

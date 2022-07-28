@@ -40,7 +40,7 @@
             this.rb_limpieza = new System.Windows.Forms.RadioButton();
             this.rb_recepcionista = new System.Windows.Forms.RadioButton();
             this.rb_administrcion = new System.Windows.Forms.RadioButton();
-            this.bt_limpiar = new System.Windows.Forms.Button();
+            this.bt_cerrar = new System.Windows.Forms.Button();
             this.bt_modificar = new System.Windows.Forms.Button();
             this.gb_sexo.SuspendLayout();
             this.gb_puesto.SuspendLayout();
@@ -146,10 +146,10 @@
             this.rb_mozo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rb_mozo.Location = new System.Drawing.Point(160, 22);
             this.rb_mozo.Name = "rb_mozo";
-            this.rb_mozo.Size = new System.Drawing.Size(66, 25);
+            this.rb_mozo.Size = new System.Drawing.Size(80, 25);
             this.rb_mozo.TabIndex = 4;
             this.rb_mozo.TabStop = true;
-            this.rb_mozo.Text = "Mozo";
+            this.rb_mozo.Text = "Mozo/a";
             this.rb_mozo.UseVisualStyleBackColor = false;
             // 
             // rb_cocina
@@ -208,18 +208,19 @@
             this.rb_administrcion.Text = "Administracion";
             this.rb_administrcion.UseVisualStyleBackColor = false;
             // 
-            // bt_limpiar
+            // bt_cerrar
             // 
-            this.bt_limpiar.BackColor = System.Drawing.Color.SlateGray;
-            this.bt_limpiar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_limpiar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt_limpiar.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bt_limpiar.Location = new System.Drawing.Point(38, 475);
-            this.bt_limpiar.Name = "bt_limpiar";
-            this.bt_limpiar.Size = new System.Drawing.Size(200, 21);
-            this.bt_limpiar.TabIndex = 19;
-            this.bt_limpiar.Text = "REFRESCAR";
-            this.bt_limpiar.UseVisualStyleBackColor = false;
+            this.bt_cerrar.BackColor = System.Drawing.Color.SlateGray;
+            this.bt_cerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bt_cerrar.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bt_cerrar.Location = new System.Drawing.Point(12, 534);
+            this.bt_cerrar.Name = "bt_cerrar";
+            this.bt_cerrar.Size = new System.Drawing.Size(253, 34);
+            this.bt_cerrar.TabIndex = 19;
+            this.bt_cerrar.Text = "CERRAR";
+            this.bt_cerrar.UseVisualStyleBackColor = false;
+            this.bt_cerrar.Click += new System.EventHandler(this.bt_cerrar_Click);
             // 
             // bt_modificar
             // 
@@ -227,7 +228,7 @@
             this.bt_modificar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_modificar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bt_modificar.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bt_modificar.Location = new System.Drawing.Point(38, 502);
+            this.bt_modificar.Location = new System.Drawing.Point(36, 456);
             this.bt_modificar.Name = "bt_modificar";
             this.bt_modificar.Size = new System.Drawing.Size(200, 56);
             this.bt_modificar.TabIndex = 18;
@@ -240,8 +241,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.ClientSize = new System.Drawing.Size(277, 570);
-            this.Controls.Add(this.bt_limpiar);
+            this.ClientSize = new System.Drawing.Size(278, 570);
+            this.Controls.Add(this.bt_cerrar);
             this.Controls.Add(this.bt_modificar);
             this.Controls.Add(this.gb_puesto);
             this.Controls.Add(this.gb_sexo);
@@ -276,7 +277,7 @@
         private System.Windows.Forms.RadioButton rb_limpieza;
         private System.Windows.Forms.RadioButton rb_recepcionista;
         private System.Windows.Forms.RadioButton rb_administrcion;
-        private System.Windows.Forms.Button bt_limpiar;
+        private System.Windows.Forms.Button bt_cerrar;
         private System.Windows.Forms.Button bt_modificar;
     }
 }

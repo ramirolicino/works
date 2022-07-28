@@ -57,7 +57,7 @@ namespace Biblioteca
 
                     Puesto descPuesto = Extencion.ConvertirPuesto(puesto);
 
-                    auxEmpleado = new Empleado(id, nombre, apellido, sexo, fechaIngerso, descPuesto, estado);
+                    auxEmpleado = new Empleado(id, nombre, apellido, sexo, fechaIngerso, descPuesto.Descripcion, puesto, estado);
                 }
 
                 if (auxEmpleado is not null)
@@ -119,7 +119,7 @@ namespace Biblioteca
 
                     Puesto descPuesto = Extencion.ConvertirPuesto(puesto);
 
-                    list.Add(new Empleado(id, nombre, apellido, sexo, fechaIngerso, descPuesto, estado));
+                    list.Add(new Empleado(id, nombre, apellido, sexo, fechaIngerso, descPuesto.Descripcion, puesto, estado));
                 }
 
                 return list;
@@ -145,7 +145,7 @@ namespace Biblioteca
                 command.Parameters.AddWithValue("@apellido", emp.Apellido);
                 command.Parameters.AddWithValue("@sexo", emp.Sexo);
                 command.Parameters.AddWithValue("@fechaIngreso", emp.FechaIngreso);
-                command.Parameters.AddWithValue("@puesto", emp.Puesto.Id);
+                command.Parameters.AddWithValue("@puesto", emp.ID_Puesto);
                 command.Parameters.AddWithValue("@activo", emp.Estado);
 
                 connection.Open();
@@ -184,7 +184,7 @@ namespace Biblioteca
                     command.Parameters.AddWithValue("@nombre", emp.Nombre);
                     command.Parameters.AddWithValue("@apellido", emp.Apellido);
                     command.Parameters.AddWithValue("@sexo", emp.Sexo);
-                    command.Parameters.AddWithValue("@puesto", emp.Puesto.Id);
+                    command.Parameters.AddWithValue("@puesto", emp.ID_Puesto);
 
                     connection.Open();
                     command.ExecuteNonQuery();
